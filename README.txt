@@ -1,8 +1,11 @@
 Shan Swaraj Portfolio
 
 Files:
-- index.html: page structure and content
-- style.css: visual design and responsive styling
-- script.js: interactive behavior
+- index.html: website structure and embedded certificate/profile images
+- style.css: portfolio styling and responsive layout
+- script.js: JavaScript file (kept from the original project)
 
-Open index.html in a browser to preview. To deploy on GitHub Pages, upload all four files into the same repository folder and commit the changes. Images already embedded in index.html are included.
+Preview locally by opening index.html in a browser. Keep all files in this folder together.
+For Vercel, upload/commit the contents of this folder to the project repository and redeploy.
+
+Note: Existing project GitHub buttons open the supplied GitHub profile repository list because individual repo URLs were not supplied. The Currency Converter repository button is a placeholder until a repository exists.

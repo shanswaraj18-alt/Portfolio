@@ -19,3 +19,11 @@
 .profile-photo{display:block;width:166px;height:190px;object-fit:cover;object-position:center 25%;border-radius:18px;border:4px solid #fff;box-shadow:0 12px 28px #0877ce25}
 .hero-emblem{gap:0}
 .emblem-line{margin:10px 0 7px}
+
+/* Project action links and the new Currency Converter card */
+.project-actions{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 8px}
+.project-actions .btn{align-items:center;justify-content:center}
+.currency-art{background:radial-gradient(circle at 75% 22%,#c8f5ef,transparent 42%),linear-gradient(135deg,#eaf8ff,#f4f2ff)}
+.currency-art span{font-size:3rem;color:#0877ce;letter-spacing:-.04em}
+.btn-disabled{color:#71839a;background:#f2f6fa;border-style:dashed;cursor:default;pointer-events:none}
+@media(max-width:480px){.project-actions .btn{padding:10px 12px;font-size:.85rem}}
